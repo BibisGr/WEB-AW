@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    color: black;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+body {
+    /* background-color: #000; */
+    background-image: url(https://images.pexels.com/photos/1526713/pexels-photo-1526713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: chocolate;
+    font-weight: 900;
+    font-size: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    backdrop-filter: blur(45px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 10px 15px #000;
+}
+
+  nav{
+    position: sticky; top: 0;
+    backdrop-filter: blur(45px); 
+  }
+
+nav li {
+    list-style: none;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-child(1) {
+    background-color: yellowgreen;
+}
+
+section:nth-child(2) {
+    background-color: aquamarine;
+
+}
+
+section:nth-child(3) {
+    background-color: steelblue;
+}
+
+
+section:nth-child(4) {
+    background-color: violet;
+}
+
+section:nth-child(5) p {
+    color: white;
+}
+
+section:nth-child(5) h1 {
+    color: white;
+}
+
+section:nth-child(6) {
+    background-color: rgba(238, 130, 238, 0.201);
+}
+section:nth-child(6) p{
+    color: white;
+}
+section:nth-child(6) h1{
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    width: 75%;
+}
