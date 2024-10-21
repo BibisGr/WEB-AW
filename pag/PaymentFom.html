@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pago - Tienda de Zapatillas</title>
+    <link rel="stylesheet" href="../css/PaymentForm.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Zapatillas</h1>
+    </header>
+
+    <main>
+        <section class="product-list">
+            <h2>Tu carrito de compras</h2>
+            <ul>
+                <li>
+                    <div class="product">
+                        <img src="zapatilla1.jpg" alt="Zapatilla 1">
+                        <div class="product-info">
+                            <h3>Zapatilla Deportiva A</h3>
+                            <p>Talla: 42</p>
+                            <p>Color: Blanco</p>
+                        </div>
+                        <div class="product-price">
+                            <p>$50.00</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="zapatilla2.jpg" alt="Zapatilla 2">
+                        <div class="product-info">
+                            <h3>Zapatilla Running B</h3>
+                            <p>Talla: 43</p>
+                            <p>Color: Negro</p>
+                        </div>
+                        <div class="product-price">
+                            <p>$60.00</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="zapatilla3.jpg" alt="Zapatilla 3">
+                        <div class="product-info">
+                            <h3>Zapatilla Casual C</h3>
+                            <p>Talla: 41</p>
+                            <p>Color: Azul</p>
+                        </div>
+                        <div class="product-price">
+                            <p>$45.00</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="total">
+                <p>Total: $155.00</p>
+            </div>
+        </section>
+
+        <section class="checkout-form">
+            <h2>Información de Envío y Pago</h2>
+
+            <!-- Formulario de Dirección de Envío -->
+            <form action="/pagar" method="POST">
+
+                <h3>Datos de Envío</h3>
+
+                <label for="shipping-name">Nombre Completo:</label>
+                <input type="text" id="shipping-name" name="shipping-name" required>
+
+                <label for="shipping-address">Dirección:</label>
+                <input type="text" id="shipping-address" name="shipping-address" required>
+
+                <label for="shipping-city">Ciudad:</label>
+                <input type="text" id="shipping-city" name="shipping-city" required>
+
+                <label for="shipping-postal-code">Código Postal:</label>
+                <input type="text" id="shipping-postal-code" name="shipping-postal-code" required>
+
+                <label for="shipping-country">País:</label>
+                <input type="text" id="shipping-country" name="shipping-country" required>
+
+                <!-- Formulario de Información de Pago -->
+                <h3>Datos de Pago</h3>
+
+                <label for="card-name">Nombre en la Tarjeta:</label>
+                <input type="text" id="card-name" name="card-name" required>
+
+                <label for="card-number">Número de Tarjeta:</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="expiration">Fecha de Expiración:</label>
+                <input type="text" id="expiration" name="expiration" placeholder="MM/AA" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <button type="submit">Pagar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Tienda de Zapatillas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
