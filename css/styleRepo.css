@@ -1,3 +1,114 @@
 body{
-    
+    background-color: rgb(31, 28, 99);
 }
+h1, h2, h3, h4, h5, h6{
+    color: #3b5998;
+}
+/* Profesional Page */
+.principal{
+    background-color: rgba(240, 248, 255, 0.345);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.titulo{
+    background-color: rgb(4, 28, 89);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.titulo h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LogInForms, .formularios{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+a{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #3b5998 1px solid;
+    display: block;
+    max-width: fit-content;
+}
+/* .personalInfo{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.personalInfo img{
+    width: 250px;
+    border-radius: 50%;
+}
+.personalInfo li{
+    list-style: none;
+}
+.personalInfo .definicionlist{
+    background-color: #82a0e1;
+    max-width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.gallery{
+    text-align: center;
+}
+.gallery img{
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+}
+.contacto{
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.contacto li{
+    list-style: none;
+}
+.contacto img{
+    width: 30px;
+    border-radius: 50%;
+}
+.testimonios{
+    background-color: #82a0e1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.testimonio{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.testimonio img{
+    width: 20px;
+    padding-right: 5px;
+}
+.testimonio em{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+dl{
+    text-align: left;
+}
+
+code{
+    background-color: rgb(20, 0, 203);
+    color: rgb(238, 255, 0);
+    margin: 10px;
+    padding: 10px;
+} */
